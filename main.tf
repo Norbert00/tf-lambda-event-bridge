@@ -85,7 +85,7 @@ module "lambda" {
 
   m_env_variables = {
     env_bucket_name = "tag-holds-bucket"
-    env_file_name   = "tags.csv" # dodałem walidację że tylko csv format ale nie wiem jak będzie nazywać się zmienna
+    env_file_name   = "tags.csv"
   }
 }
 
